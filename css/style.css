@@ -194,8 +194,13 @@ img, audio, video {
 
 html {
 	display: flex;
+	flex-direction: column;
+	justify-content: center;
 	max-width: 100%;
 	min-height:100%;
+	line-height: 1.1em;
+	background-color: #ccffff;
+	font-family: 
 }
 
 h1 {
@@ -204,7 +209,9 @@ h1 {
 	padding-bottom: 0.55em;
 }
 
-h2 {
+h3 {
 	font-size: 2 em;
 	font-weight: bold;
 }
+
+p
