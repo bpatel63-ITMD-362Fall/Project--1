@@ -28,7 +28,3 @@
 	
 document.forms["signup-form"].addEventListener('submit', validateForm);
 
-/*(function reset() {
-
-document.forms.getElementById("signup-form").reset();
-}*/
