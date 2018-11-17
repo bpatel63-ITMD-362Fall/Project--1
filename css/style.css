@@ -201,25 +201,32 @@ html {
 	line-height: 1.1em;
 	background-color: #ccffff;
 	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
-	font-size-0.938em;
+	font-size: 0.938em;
 }
 
 h1 {
 	font-size: 5em;
+	font-weight: normal;
 	line-height: 1.25em;
-	padding-bottom: 0.75em;
+	padding-bottom: 0.55em;
 }
 
 h2 {
 	font-size: 3em;
-	font-weight: normal;
+	
+	padding-bottom: 0.75em;
 }
 
 p {
 	font-size: 2em;
 	line-height: 1.5em;
-	padding-bottom: 1em;
 	padding-right: 60%;
 	width: 75%;
 	text-align:center;
 }
+
+img {
+	min-height: 100%;
+	overflow: hidden;
+}
+	
