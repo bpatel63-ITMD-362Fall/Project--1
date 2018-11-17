@@ -204,18 +204,21 @@ html {
 }
 
 h1 {
-	font-size: 2.454em;
-	font-weight: bold;
-	padding-bottom: 0.55em;
+	font-size: 5em;
+	line-height: 1.25em;
+	padding-bottom: 0.75em;
 }
 
 h2 {
-	font-size: 2 em;
+	font-size: 3em;
 	font-weight: bold;
 }
 
 p {
-	font-size: 1.5em;
+	font-size: 2em;
 	line-height: 1.5em;
-	padding-bottom: 1.5em;
+	padding-bottom: 1em;
+	padding-right: 60%;
+	width: 75%;
+	text-align:center;
 }
