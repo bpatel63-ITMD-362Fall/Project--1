@@ -200,7 +200,8 @@ html {
 	min-height:100%;
 	line-height: 1.1em;
 	background-color: #ccffff;
-	font-family: 'Montserrat',
+	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+	font-size-0.938em;
 }
 
 h1 {
@@ -211,7 +212,7 @@ h1 {
 
 h2 {
 	font-size: 3em;
-	font-weight: bold;
+	font-weight: normal;
 }
 
 p {
