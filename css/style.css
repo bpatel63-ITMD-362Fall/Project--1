@@ -252,13 +252,16 @@ img {
 
 input[type="submit"],
 input[type="button"] {
+  background-color: #4CAF50;
   border: none;
-  outline: none;
-  background-color: #C8112A;
-  height: 4.4em;
-  width: 4.4em;
-  border-radius: 50%;
   color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin:4px 2px;
+  border-radius: 50%;
   -webkit-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.45);
   -moz-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.45);
   box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.45);

@@ -28,3 +28,5 @@
 	
 document.forms["signup-form"].addEventListener('submit', validateForm);
 
+})();
+
