@@ -1,9 +1,11 @@
 (function () {
+	
 	function validateForm() {
-		var nameField = document.forms["signup-form"["fname"].value;
-		var nameField = document.forms["signup-form"["lname"].value;
-		var emailField = document.forms["signup-form"["email"].value;
-		var phoneField = document.forms["signup-form"["phone"].value;
+		
+		var nameField = document.forms["signup-form"]["fname"].value;
+		var nameField = document.forms["signup-form"]["lname"].value;
+		var emailField = document.forms["signup-form"]["email"].value;
+		var phoneField = document.forms["signup-form"]["phone"].value;
 
 		if (nameField === "") {
             alert("All information must be filled out");
@@ -26,7 +28,7 @@
         }
 	}
 	
-document.forms["signup-form"].addEventListener('submit', validateForm);
+	document.forms["signup-form"].addEventListener('submit', validateForm);
 
-})();
+});
 
