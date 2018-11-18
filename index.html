@@ -10,10 +10,10 @@
 <body>
 	<main id="home-content">
 		<figure id="lead-img-container">
-                <img id="lead-img" src="media/tech.jpg" alt="TechTalk Newsletter">
+                <img id="lead-img" src="media/tech.jpg" alt="TechTalk Updates">
             </figure>
             <section id="form-section">
-                <h1> TechTalk Newsletter </h1>
+                <h1> TechTalk Updates </h1>
 				<h2> Email Updates </h2>
 				
 				<div>
@@ -22,23 +22,23 @@
 				</p>
 				</div>
 				
-                <form name="signup-form" id="signup-form" method="get" action="#null" autocomplete="on">
+                <form name="signup-form" id="signup-form" method="get" action="#null" autocomplete="on" onsubmit="validateForm">
                     <ul>
                         <li class="form-item">
                             <label for="name-input"> First Name </label>
-                            <input type="text" id="name-input" name="fname"/>
+                            <input type="text" id="name-input" name="fname" value="" placeholder="First Name" required />
                         </li>
 						<li class="form-item">
                             <label for="name-input"> Last Name </label>
-                            <input type="text" id="name-input" name="lname"/>
+                            <input type="text" id="name-input" name="lname" value="" placeholder="Last Name" required />
                         </li>
                         <li class="form-item">
                             <label for="email-input"> Email </label>
-                            <input type="email" id="email-input" name="email" />
+                            <input type="email" id="email-input" name="email" value="" placeholder="abc@example.com" required/>
                         </li>
                         <li class="form-item">
                             <label for="phone-input"> Phone </label>
-                            <input type="tel" id="phone-input" name="phone"/>
+                            <input type="tel" id="phone-input" name="phone" value="" placeholder="xxx-xxx-xxxx" required/>
                         </li>
                         <li class="form-item" id="submit-button">
                             <input type="submit" id="form-submit" value="Subscribe"/>
@@ -48,7 +48,7 @@
             </section>
         </main>
         <!-- Javascript Files -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         <script src="js/site.js" type="application/javascript"></script>
     </body>
 </html>

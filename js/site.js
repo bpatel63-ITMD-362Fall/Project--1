@@ -1,6 +1,14 @@
-(function () {
-	
-	function validateForm() {
+function navResponsive() {
+    var x = document.getElementById("myNav");
+    if (x.className === "nav") {
+        x.className += " responsive";
+    } else {
+        x.className = "nav";
+    }
+}
+
+function () {
+function validateForm() {
 		
 		var nameField = document.forms["signup-form"]["fname"].value;
 		var nameField = document.forms["signup-form"]["lname"].value;
@@ -30,5 +38,5 @@
 	
 	document.forms["signup-form"].addEventListener('submit', validateForm);
 
-});
+})();
 
