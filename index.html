@@ -11,46 +11,45 @@
 	<main id="home-content">
 		<figure id="lead-img-container">
                 <img id="lead-img" src="media/tech.jpg" alt="TechTalk Updates">
-            </figure>
-            <section id="form-section">
-                <h1> TechTalk Updates </h1>
-				<h2> Email Updates </h2>
+        </figure>
+        <section id="form-section">
+			<h1> TechTalk News </h1>
+		    <h2> Email Updates </h2>
 				
-				<div>
-                <p id="sign-up"> 
+		    <div>
+				<p id="sign-up"> 
 				Sign up to receive the updates about the latest technology for personal and business use.
 				</p>
-				</div>
+			</div>
 				
-                <form name="signup-form" id="signup-form" method="get" action="#null" autocomplete="on">
-                    <ul>
-                        <li class="form-item">
-                            <label for="name-input"> First Name </label>
-                            <input type="text" id="name-input" name="fname" value="" placeholder="First Name" required />
-                        </li>
-						<li class="form-item">
-                            <label for="name-input"> Last Name </label>
-                            <input type="text" id="name-input" name="lname" value="" placeholder="Last Name" required />
-                        </li>
-                        <li class="form-item">
-                            <label for="email-input"> Email </label>
-                            <input type="email" id="email-input" name="email" value="" placeholder="abc@example.com" required/>
-                        </li>
-                        <li class="form-item">
-                            <label for="phone-input"> Phone </label>
-                            <input type="tel" id="phone-input" name="phone" value="" placeholder="xxx-xxx-xxxx" required/>
-                        </li>
-                        <li class="form-item" id="submit-button">
-                            <input type="submit" id="form-submit" onsubmit="validateForm()" value="Subscribe" />
-                        </li>
-						<li class="form-item" id="reset-button">
-							<input type="button" id="form-reset" onclick="resetform()"  value="Reset Form" />
-                    </ul>
-                </form>
-            </section>
-        </main>
+            <form name="signup-form" id="signup-form" method="get" action="#null" autocomplete="on">
+                <ul>
+                    <li class="form-item">
+                        <label for="name-input"> First Name </label>
+                        <input type="text" id="name-input" name="fname" value="" placeholder="First Name" />
+                    </li>
+				    <li class="form-item">
+                        <label for="name-input"> Last Name </label>
+                        <input type="text" id="name-input" name="lname" value="" placeholder="Last Name" />
+                    </li>
+                    <li class="form-item">
+                        <label for="email-input"> Email </label>
+                        <input type="email" id="email-input" name="email" value="" placeholder="abc@example.com" />
+                    </li>
+                    <li class="form-item">
+                        <label for="phone-input"> Phone </label>
+                        <input type="tel" id="phone-input" name="phone" value="" placeholder="xxx-xxx-xxxx" />
+                    </li>
+                    <li class="form-item" id="submit-button">
+                        <input type="submit" id="form-submit" onsubmit="validateForm()" value="Subscribe" />
+                    </li>
+                </ul>
+            </form>
+        </section>
+    </main>
+	
         <!-- Javascript Files -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         <script src="js/site.js" type="application/javascript"></script>
-    </body>
+</body>
 </html>

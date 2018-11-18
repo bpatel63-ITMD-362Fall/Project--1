@@ -7,7 +7,7 @@ function navResponsive() {
     }
 }
 
-function () {
+(function () {
 function validateForm() {
 		
 		var nameField = document.forms["signup-form"]["fname"].value;
@@ -34,12 +34,13 @@ function validateForm() {
             alert("All information must be filled out");
             return false;
         }
+		
+		else {
+			alert("Thank you for subscribing our newsletter!");
+			return true;
+		}
 	}
 	
 	document.forms["signup-form"].addEventListener('submit', validateForm);
 
 })();
-
-function resetform() {
-document.getElementById("myform").reset();
-}
