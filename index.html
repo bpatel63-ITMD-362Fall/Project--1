@@ -22,7 +22,7 @@
 				</p>
 				</div>
 				
-                <form name="signup-form" id="signup-form" method="get" action="#null" autocomplete="on" onsubmit="validateForm">
+                <form name="signup-form" id="signup-form" method="get" action="#null" autocomplete="on">
                     <ul>
                         <li class="form-item">
                             <label for="name-input"> First Name </label>
@@ -41,8 +41,10 @@
                             <input type="tel" id="phone-input" name="phone" value="" placeholder="xxx-xxx-xxxx" required/>
                         </li>
                         <li class="form-item" id="submit-button">
-                            <input type="submit" id="form-submit" value="Subscribe"/>
+                            <input type="submit" id="form-submit" onsubmit="validateForm()" value="Subscribe" />
                         </li>
+						<li class="form-item" id="reset-button">
+							<input type="button" id="form-reset" onclick="resetform()"  value="Reset Form" />
                     </ul>
                 </form>
             </section>

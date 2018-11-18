@@ -40,3 +40,6 @@ function validateForm() {
 
 })();
 
+function resetform() {
+document.getElementById("myform").reset();
+}
